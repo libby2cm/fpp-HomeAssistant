@@ -3,8 +3,8 @@
 	"name": "Home Assistant",
 	"author": "Chris Pinkham (CaptainMurdoch)",
 	"description": "Integrate FPP with Home Assistant via MQTT Auto Discovery",
-	"homeURL": "https://github.com/FalconChristmas/fpp-HomeAssistant",
-	"srcURL": "https://github.com/FalconChristmas/fpp-HomeAssistant.git",
+	"homeURL": "https://github.com/libby2cm/fpp-HomeAssistant",
+	"srcURL": "https://github.com/libby2cm/fpp-HomeAssistant.git",
 	"bugURL": "https://github.com/FalconChristmas/fpp-HomeAssistant/issues",
 	"versions": [
         {
