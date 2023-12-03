@@ -464,7 +464,7 @@ function LoadConfig() {
             row += "></th>" +
                 "<td class='fppSensorName'>" + label + " (" + fppSensors[i].formatted + ")</td>";
 
-            row += "<td><input type='text' class='sensorName' size='32' maxlength='128' value='"; //CML
+            row += "<td><input type='text' class='sensorName' size='128' maxlength='128' value='"; //CML
             if ((config.hasOwnProperty('sensors')) &&
                 (config['sensors'].hasOwnProperty(name)))
                 row += config['sensors'][name].SensorName;
