@@ -438,10 +438,10 @@ function LoadConfig() {
     });
 
     // Sensors (Temp/Voltage/etc.)
-    $.get('/api/system/status', function(fppStatus) {
-        fppSensors = fppStatus.sensors;
+    $.get('/api/system/status', function(GetFPPStatus) {
+        fppSensors = GetFPPStatus.sensors;
 
-        updateWarnings(fppStatus);
+        updateWarnings(GetFPPStatus);
 
         $('#sensorsBody').empty();
 
